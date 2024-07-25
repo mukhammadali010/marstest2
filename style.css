@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quantico;
+}
+
+header {
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+  background: rgb(39, 44, 61);
+  padding: 20px;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: rgb(255, 255, 255);
+
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+}
+
+.lang input{
+    width: 190px;
+height: 30px;
+border-radius: 5px;
+
+background: rgb(64, 72, 100);
+border: none;
+outline: none;
+color: white;
+text-indent: 10px;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.inp{
+    position: relative;
+}
+
+.inp i{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
